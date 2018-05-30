@@ -1,0 +1,31 @@
+{
+  "name": "npm-module-test",
+  "version": "0.0.1",
+  "description": "Test to create a module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrizioR/npm-module-test.git"
+  },
+  "keywords": ["npm", "test", "module"],
+  "author":
+    "Patrizio Ricciardello <pricciardello@gmail.com> (https://github.com/patrizior)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrizioR/npm-module-test/issues"
+  },
+  "homepage": "https://github.com/PatrizioR/npm-module-test#readme",
+  "devDependencies": {
+    "typescript": "^2.8.4"
+  },
+  "dependencies": {
+    "@types/emojione": "^2.2.2",
+    "emojione": "^3.1.4"
+  }
+}
